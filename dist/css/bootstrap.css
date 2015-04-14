@@ -1,3 +1,7 @@
+.center-block {
+  display: block;
+  margin: 0 auto;
+}
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -4350,9 +4354,10 @@ button.close {
   clear: both;
 }
 .center-block {
-  display: block;
   margin-left: auto;
   margin-right: auto;
+  display: block;
+  margin: 0 auto;
 }
 .pull-right {
   float: right !important;
